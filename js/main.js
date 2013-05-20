@@ -49,7 +49,7 @@ var app = {
                 $('body').html(new EmployeeView(employee).render().el);
             });
         }else{ //다시 홈으로.
-        	$('body').html(new HomeView(this.store).render().el);
+        	//$('body').html(new HomeView(this.store).render().el);
         }
     },
 
