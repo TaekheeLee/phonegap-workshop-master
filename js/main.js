@@ -48,8 +48,6 @@ var app = {
             this.store.findById(Number(match[1]), function(employee) {
                 $('body').html(new EmployeeView(employee).render().el);
             });
-        }else{ //다시 홈으로.
-        	//$('body').html(new HomeView(this.store).render().el);
         }
     },
 
